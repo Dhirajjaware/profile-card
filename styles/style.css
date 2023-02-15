@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+body{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/laptop-background-image.jpg); */
+    background-color: #222831;
+    background-size: cover;
+}
+.container{
+    height: 500px;
+    width: 335px;
+    border: 2px outset black;
+    margin: 120px auto 0 auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 1px lawngreen;
+    animation-name: awesome;
+    animation: awesome 6s infinite;
+}
+@keyframes awesome{
+    0%{box-shadow:  5px 5px 20px 1px rgba(126, 252, 0, 0.584);}
+    10%{box-shadow: 5px 5px 20px 5px blue;}
+    20%{box-shadow: 5px 5px 20px 1px lime;}
+    30%{box-shadow: 5px 5px 20px 5px red;}
+    40%{box-shadow: 5px 5px 20px 1px yellow;}
+    50%{box-shadow: 5px 5px 20px 5px darkblue;}
+    60%{box-shadow: 5px 5px 20px 1px orangered;}
+    70%{box-shadow: 5px 5px 20px 5px darkred;}
+    80%{box-shadow: 5px 5px 20px 1px aquamarine;}
+    90%{box-shadow: 5px 5px 20px 5px palevioletred;}
+    100%{box-shadow:5px 5px 20px 1px aqua;}
+}
+.img-box{
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 3px;
+}
+.img-box img{
+height: 200px;
+width: auto;
+border-radius: 100%;
+position: relative;
+left: 40px;
+opacity: .8;
+
+}
+.right{
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    font-size: 30px;
+
+}
+.left{
+    position: relative;
+    bottom: 100px;
+    left: 55px;
+    font-size: 30px;
+    animation-name: max;
+    animation: max 1s infinite;
+}
+@keyframes max{
+
+    0%{color:pink}
+    50%{color:yellow;
+    font: size 50px;}
+    100%{color:blue;
+        font: size 50px;
+    }
+}
+.heading{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    text-transform: capitalize;
+    color: white;
+    font-family: monospace;
+     word-spacing: 6px;
+}
+.u{
+    font-size: 30px;
+    color: rgba(255, 255, 0, 0.537);
+}
+.p{
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.555);
+}
+.c{
+    font-size: 30px;
+    color: rgba(0, 0, 255, 0.532);
+}
+.d{
+    color: rgba(0, 255, 255, 0.742);
+    text-decoration: underline
+
+}
+.name{
+    font-size: 33px;
+    text-align: center;
+    margin-top: 17px;
+    text-transform: capitalize;
+    font-family: monospace;
+
+}
+.profession{
+    text-align: center;
+    margin-top: 30px;
+    font-family: monospace;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: darkslategray;
+    font-variant: small-caps;
+}
+.p2{
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.507);
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.university{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 33px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.icon-list{
+    color:white;
+    text-align: center;
+    display: inline-block;
+    list-style-type:none;
+    position: relative;
+    left: 80px;
+    top: 70px;
+    font-size: 33px;
+    display: flex;
+    gap: 20px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgba(255, 255, 0, 0.461);
+}
+a:active{
+    color: red;
+}
+a:hover{
+    color: blue;
+    font-size: 36px;
+    transition: 0.2s;
+}
