@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile card</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Mouse+Memoirs&family=Open+Sans&family=Rubik+Burned&family=Rubik+Distressed&family=Rubik+Maze&family=Sacramento&display=swap" rel="stylesheet">\
-<script src="https://kit.fontawesome.com/4e32ddf12b.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <h1 class="heading"><sapn class="u">u</sapn>ser <sapn class="p">P</sapn>rofile <sapn class="c">c</sapn>ard</h1>
-    <div class="container">
-        <div class="img-box">
-            <sapn class="right">💕</sapn><img src="images/profile-image.jpg" alt="">
-            <span class="left">💕</span>
-        </div>
-        <h1 style="color:white;" class="name"><sapn class="d">d</sapn>hiraj jaware</h1>
-        <marquee behavior="alternate" direction="right"><h1 class="profession"><sapn class="p2">f</sapn>ull <sapn class="p2">s</sapn>tack <sapn class="p2">d</sapn>eveloper</h1></marquee>
-        <p class="university">pune university</p>
-        <ul class="icon-list">
-            <li><a href="https://www.linkedin.com/in/dhiraj-jaware-060693229/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bm9SdLNjmQGa2lBAoURN7cg%3D%3D"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/dhiraj_jaware_32"><i class="fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/me/"><i class="fa-brands fa-square-facebook"></i></a></li>
-            <li><a href="https://twitter.com/DhirajJavare/photo"><i class="fa-brands fa-twitter"></i></a></li>
-        </ul>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Mouse+Memoirs&family=Open+Sans&family=Rubik+Burned&family=Rubik+Distressed&family=Rubik+Maze&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    \
+    <script
+      src="https://kit.fontawesome.com/4e32ddf12b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    
+    <h1 class="label__user-profile-card">
+      <sapn class="u">u</sapn>ser <sapn class="p">P</sapn>rofile
+      <sapn class="c">c</sapn>ard
+    </h1>
+    <section id="profile__card">
+
+    <div id="profile__container">
+
+      
+      <input class="input__profile-image" type="file" accept="image/*" capture >
+  
+        <img class="profile__image" src="images/profile-image.jpg" alt="profile-image" /><br>
+
+      <h1 style="color: white" class="profile__name">
+        <sapn class="d">d</sapn>hiraj jaware
+      </h1>
+      <marquee behavior="alternate" direction="right"
+        ><h1 class="profession">
+          <sapn class="p2">f</sapn>ull <sapn class="p2">s</sapn>tack
+          <sapn class="p2">d</sapn>eveloper
+        </h1></marquee
+      >
+      <p class="university">pune university</p>
+      <ul class="icon-list">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/dhiraj-jaware-060693229/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bm9SdLNjmQGa2lBAoURN7cg%3D%3D"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dhiraj_jaware_32"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/me/"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/DhirajJavare/photo"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
     </div>
-</body>
+  </section>
+
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
