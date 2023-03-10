@@ -42,9 +42,9 @@ body {
 #profile__container {
   text-align: center;
   height: 470px;
-  width: 350px;
+  width: 330px;
   background-color: #00000020;
-  padding: 2.3rem;
+  padding: 2.2rem;
   margin: 3rem;
   /* border-radius: 10px; */
   /* box-shadow: 5px 5px 20px 1px lawngreen; */
@@ -107,23 +107,24 @@ body {
 }
 
 .profile__name {
-  padding: 1rem;
-  font-size: 33px;
+  padding: 0.5rem;
+  font-size: 25px;
   text-align: center;
   text-transform: capitalize;
   font-family: monospace;
   cursor: pointer;
 }
 .profession {
+  padding: 0.5rem;
   font-family: monospace;
   text-transform: capitalize;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: darkslategray;
   font-variant: small-caps;
 }
 .p2 {
-  font-size: 30px;
-  color: rgba(255, 0, 0, 0.507);
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.138);
   text-transform: capitalize;
   text-decoration: underline;
 }
@@ -131,7 +132,7 @@ body {
   padding: 1.5rem;
   color: white;
   letter-spacing: 3px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .icon-list {
   padding: 2rem;
