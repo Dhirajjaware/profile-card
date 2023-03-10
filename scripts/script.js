@@ -1,4 +1,6 @@
 "use strict";
+const labelUnivercity = document.querySelector(".university");
+const labelOccupation = document.querySelector(".label__occupation");
 
 const imageProfile = document.querySelector(".profile__image");
 
@@ -26,3 +28,14 @@ profileName.addEventListener("click", function () {
 // btnUploadProfileImage.addEventListener("click", function () {
 //   console.log(inputProfileImage.value);
 // });
+
+labelOccupation.addEventListener("click", function () {
+  const inputOccupation = prompt("Enter Your Occupation.");
+  labelOccupation.textContent = inputOccupation;
+  labelOccupation.classList.toggle("p2");
+});
+
+labelUnivercity.addEventListener("click", function () {
+  const inputUniversityName = prompt("Enter Your University name.");
+  labelUnivercity.textContent = inputUniversityName;
+});
